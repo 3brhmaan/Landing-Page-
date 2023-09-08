@@ -140,3 +140,38 @@ button {
     font-size: 20px;
     margin-bottom: 100px;
 }
+
+.sign{
+    display: flex;
+    background-color: royalblue;
+    width: 1200px;
+    height: 130px;
+    margin: 100px auto;
+    border-radius: 8px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign .text{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign .text .title{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.sign .text .description{
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.sign button{
+    background: royalblue;
+    border: 1px solid rgb(225, 227, 233);
+    color: white;
+    width: 150px;
+    height: 34px;
+}
