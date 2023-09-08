@@ -175,3 +175,10 @@ button {
     width: 150px;
     height: 34px;
 }
+
+.footer{
+    background-color: #1f2937;
+    height: 65px;
+    color: #E5E7Eb;
+    text-align: center;
+}
